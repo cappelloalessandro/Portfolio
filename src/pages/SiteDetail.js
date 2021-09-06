@@ -92,7 +92,8 @@ const Awards = styled.div`
   display: flex;
   margin: 2rem 2rem;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: space-between;
   @media (max-width: 1500px) {
     display: block;
     margin: 2rem 2rem;
