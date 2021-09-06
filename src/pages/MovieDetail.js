@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-import ServicesSection from "../components/ServicesSection";
-
 import { useHistory } from "react-router-dom";
 import { MovieState } from "../movieState";
 //Animations
@@ -48,8 +46,6 @@ const MovieDetail = () => {
               <p>{movie.workDescription}</p>
           </WorkDescription>
           
-          <ServicesSection />
-
           <ImageDisplay>
           
             <img src={movie.secondaryImg} alt={"second-img"} />
@@ -78,11 +74,7 @@ const HeadLine = styled.div`
     margin-top: 5vh;
     width: 100%;
     height: auto;
-    /* object-fit: cover; */
   }
-  /* p{
-    margin: 2rem 5rem;
-  } */
 `;
 
 const WorkDescription = styled.div`
