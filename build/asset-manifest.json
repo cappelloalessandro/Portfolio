@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/static/js/main.bd2e2dc5.chunk.js",
+    "main.js.map": "/static/js/main.bd2e2dc5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.382b420a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.382b420a.js.map",
+    "static/js/2.c09e3b1f.chunk.js": "/static/js/2.c09e3b1f.chunk.js",
+    "static/js/2.c09e3b1f.chunk.js.map": "/static/js/2.c09e3b1f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.c09e3b1f.chunk.js.LICENSE.txt": "/static/js/2.c09e3b1f.chunk.js.LICENSE.txt",
+    "static/media/200bpm-pc.694182d6.png": "/static/media/200bpm-pc.694182d6.png",
+    "static/media/Creativeclub-pc.86eda9bd.png": "/static/media/Creativeclub-pc.86eda9bd.png",
+    "static/media/League-pc.825b7fc5.png": "/static/media/League-pc.825b7fc5.png",
+    "static/media/ale2.721fa51f.jpg": "/static/media/ale2.721fa51f.jpg",
+    "static/media/athlete-small.1cf1e68c.png": "/static/media/athlete-small.1cf1e68c.png",
+    "static/media/athlete2.02a74f8b.png": "/static/media/athlete2.02a74f8b.png",
+    "static/media/creativeclub1.5e36ecf2.jpg": "/static/media/creativeclub1.5e36ecf2.jpg",
+    "static/media/home1.ac5ee47d.png": "/static/media/home1.ac5ee47d.png",
+    "static/media/home2.ec49bbc5.png": "/static/media/home2.ec49bbc5.png",
+    "static/media/league1.e68a6179.jpg": "/static/media/league1.e68a6179.jpg",
+    "static/media/league2.9f85a8f9.jpg": "/static/media/league2.9f85a8f9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.382b420a.js",
+    "static/js/2.c09e3b1f.chunk.js",
+    "static/js/main.bd2e2dc5.chunk.js"
+  ]
+}
