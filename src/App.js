@@ -20,21 +20,29 @@ function App() {
       <GlobalStyle />
 
       <Nav />
+
       <AnimatePresence exitBeforeEnter>
+
         <Switch location={location} key={location.pathname}>
+        
           <Route path="/" exact>
             <AboutMe />
           </Route>
-          <Route path="/work" exact>
+
+          <Route path="/work" exact>  
             <MyWork />
           </Route>
+
           <Route path="/work/:id">
             <SiteDetail />
           </Route>
+
           <Route path="/contact">
             <ContactMe />
           </Route>
+
         </Switch>
+
       </AnimatePresence>
     </div>
   );

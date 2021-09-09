@@ -16,7 +16,7 @@ html{
 }
 
 body{
-    background: #1b1b1b;
+    background: #121212;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
@@ -27,7 +27,7 @@ button{
     padding: 1rem 2rem;
     border: 3px solid #23d997;
     background: transparent;
-    color: white;
+    color: #f1f1f1;;
     transition: all 0.5s ease;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -35,7 +35,7 @@ button{
     letter-spacing: 1px;
     &:hover{
         background-color: #23d997;
-        color: white;
+        color: #f1f1f1;;
     }
 }
     h2{
@@ -43,7 +43,7 @@ button{
         font-size: 4rem;
     }
     h3{
-        color: white;
+        color: #f1f1f1;;
     }
     h4{
         font-weight: bold;
@@ -64,6 +64,11 @@ button{
         line-height: 150%;
     }
 
+    .line {
+    height: 0.5rem;
+    background: #23d997;
+    margin-bottom: 3rem;
+  }
 `;
 
 export default GlobalStyle;

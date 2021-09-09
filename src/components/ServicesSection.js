@@ -29,7 +29,7 @@ const ServicesSection = () => {
         </p>
       </Description>
       <Image>
-        <img alt="camera" src={home2} />
+        <img alt="studio" src={home2} />
       </Image>
     </Services>
   );

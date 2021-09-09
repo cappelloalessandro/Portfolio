@@ -55,7 +55,7 @@ const StyledNav = styled.nav`
   top: 0;
   z-index: 10;
   a {
-    color: #fff;
+    color: #f1f1f1;
     text-decoration: none;
     font-weight:bold;
   }

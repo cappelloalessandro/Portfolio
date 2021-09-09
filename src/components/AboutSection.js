@@ -1,5 +1,6 @@
 import React from "react";
-import home1 from "../img/home1.png";
+// import home1 from "../img/home1.png";
+import ale from "../img/ale2.jpg";
 import { Link } from "react-router-dom";
 
 import { About, Description, Image, Hide } from "../styles";
@@ -35,7 +36,7 @@ const AboutSection = () => {
         </Link>
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt="Alessandro Cappello" />
+        <motion.img variants={photoAnim} src={ale} alt="Alessandro Cappello" />
       </Image>
       <Wave />
     </About>

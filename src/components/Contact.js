@@ -22,7 +22,7 @@ const ContactMe = () => {
       variants={pageAnimation}
       initial="hidden"
       animate="show"
-      // style={{ background: "#fff" }}
+      // style={{ background: "##f1f1f1;" }}
     >
         <div>
       <Title>
@@ -85,7 +85,7 @@ const ContactStyle = styled(motion.div)`
 
 const Title = styled.div`
   margin-bottom: 4rem;
-  /* color: #fff; */
+  /* color: ##f1f1f1;; */
   color: #23d997;
   letter-spacing: 0.2rem;
   font-family: "Lobster", cursive;
@@ -118,7 +118,7 @@ a{
   font-size:3.5rem;
   margin: 2rem 0rem 0rem;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #f1f1f1;;
   font-weight:bold;
 }
 `;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-//Pc images
+//Pc-images
 import athlete from "../img/200bpm-pc.png";
 import creative from "../img/Creativeclub-pc.png";
 import league from "../img/League-pc.png";
@@ -23,7 +23,6 @@ const OurWork = () => {
   const [element2, controls2] = useScroll();
   return (
     <Work
-      style={{ background: "#fff" }}
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -37,7 +36,7 @@ const OurWork = () => {
       </motion.div>
 
       {/* 200bpm */}
-      <Movie>
+      <Site>
         <motion.h2 variants={fade}>200Bpm</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/200bpm">
@@ -45,9 +44,9 @@ const OurWork = () => {
             <motion.img variants={photoAnim} src={athlete} alt="athlete" />
           </Hide>
         </Link>
-      </Movie>
+      </Site>
 
-      <Movie
+      <Site
         ref={element2}
         variants={fade}
         animate={controls2}
@@ -58,10 +57,10 @@ const OurWork = () => {
         <Link to="/work/CreativeClub">
           <img src={creative} alt="CreativeClub" />
         </Link>
-      </Movie>
+      </Site>
 
 
-      <Movie 
+      <Site 
         ref={element}
         variants={fade}
         animate={controls}
@@ -71,7 +70,20 @@ const OurWork = () => {
         <Link to="/work/League-of-legends-af">
           <img src={league} alt="League of legends action figure" />
         </Link>
-      </Movie> 
+      </Site> 
+
+
+      {/* <Site 
+        ref={element}
+        variants={fade}
+        animate={controls}
+        initial="hidden">
+        <h2>More to Come</h2>
+        <motion.div variants={lineAnim} className="line"></motion.div>
+        <Link to="/work/League-of-legends-af">
+          <img src={league} alt="League of legends action figure" />
+        </Link>
+      </Site>  */}
 
       <ScrollTop />
 
@@ -86,48 +98,47 @@ const Work = styled(motion.div)`
   @media (max-width: 1300px) {
     padding: 2rem 2rem;
   }
-
   h2 {
     padding: 1rem 0rem;
     font-family: "Lobster", cursive;
+    color:#f1f1f1;
+    
+  }
+  @media (max-width: 1300px) {
+    h2{
+      font-size:2rem;
+      text-align: center;
+    }
   }
 `;
-const Movie = styled(motion.div)`
+const Site = styled(motion.div)`
   padding-bottom: 10rem;
-
-  .line {
-    height: 0.5rem;
-    background: #23d997;
-    margin-bottom: 3rem;
-  }
   img {
     width: 100%;
-    /* height: 70vh;
-    object-fit: cover; */
   }
 `;
 const Hide = styled.div`
   overflow: hidden;
 `;
 
-//Frame Animation
+//Frames Animation
 const Frame1 = styled(motion.div)`
   position: fixed;
   left: 0;
   top: 10%;
   width: 100%;
   height: 100vh;
-  background: #EE6055;
+  background: #d92365;
   z-index: 2;
 `;
 const Frame2 = styled(Frame1)`
   background: #23D997;
 `;
 const Frame3 = styled(Frame1)`
-  background: #FFD97D;
+  background: #d92365;
 `;
 const Frame4 = styled(Frame1)`
-  background: #FF9B85;
+  background: #23D997;
 `;
 
 export default OurWork;

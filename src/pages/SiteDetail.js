@@ -10,16 +10,13 @@ import { pageAnimation } from "../animation";
 const SiteDetail = () => {
   const history = useHistory();
   const url = history.location.pathname;
-  // const [movies, setMovies] = useState(MovieState);
-  // const [movie, setMovie] = useState(null);
+
   const [sites, setSites] = useState(SiteState);
   const [site, setSite] = useState(null);
 
   //UseEffect
   useEffect(() => {
     const currentSite = sites.filter((stateSites) => stateSites.url === url);
-    // const currentMovie = movies.filter((stateMovie) => stateMovie.url === url);
-    // setMovie(currentMovie[0]);
     setSite(currentSite[0]);
     console.log(setSites);
   }, [sites, url]);
@@ -46,10 +43,13 @@ const SiteDetail = () => {
               />
               ))}
           </Awards>
+
+
           <WorkDescription>
+              <h2>Descrizione Del Progetto:</h2>
               <p>{site.workDescription}</p>
           </WorkDescription>
-          
+
           <ImageDisplay>
           <img src={site.secondaryImg} alt={"second-img"} />
           </ImageDisplay>
@@ -83,7 +83,11 @@ const HeadLine = styled.div`
 
 const WorkDescription = styled.div`
   p{
-    margin: 2rem 5rem;
+    margin: 1rem 5rem;
+  }
+  h2{
+    margin:0rem 5rem;
+    font-weight:bold;
   }
 `
 

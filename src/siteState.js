@@ -10,7 +10,6 @@ import league from "./img/league1.jpg";
 
 
 export const SiteState = () => {
-// export const MovieState = () => {
   return [
     {
       title: "200Bpm",
@@ -29,7 +28,7 @@ export const SiteState = () => {
           "Sito per iscrizione a corse, competizioni e attività sportive della martesana.",
         },  
       ],
-      workDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      workDescription: "200Bpm è uno dei miei primi siti creati, iniziato nel 2019 ed è ancora attivo e in fase di aggiornamento, visto che gestisco ancora oggi le varie pagine delle corse che vengono riproposte ogni anno con una nuova versione. proponiamo competizioni sportive adatte a tutti, siamo anche in collaborazione con FIASP Italia, grande leader nelle convenzioni sportive ed eventim sportivi.",
     },
     {
       title: "CreativeClub",
@@ -48,7 +47,7 @@ export const SiteState = () => {
           "Sito Vetrina per studio creativo con sede ad Amsterdam per progetti creativi",
         },  
       ],
-      workDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      workDescription: "Nato come progetto di fine corso per il corso di * * per scuola Mohole, ora è in fase di deploy e rendere il sito operativo a partire da Ottobre 2021; il sito tratta di progetti creativi creati da un gruppo di creativi, che guardano il design con un occhio diverso dal solito, così da poter avere un modo tutto loro per esprimersi e far risaltare i progetti e i lavori che gli vengono commissionati. ",
     },
     {
       title: "League of Legends Action Figure",
@@ -67,7 +66,7 @@ export const SiteState = () => {
           "“Sito Infocommerce per Vendita, informazioni e pre-ordine della nuova collezione di league of legends Action Figure",
         },  
       ],
-      workDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      workDescription: "Questo sito nasce dalla collaborazione tra una società specializzata nella vendita di videogames e organizzazione di eventi e fiere chiamata VxP Project e la Riot Games.Il titolare, mi ha affidato il compito di creare un sito wordpress con lo scopo di esporre la nuova collezione che ha ricevuto in anticipo per la prevendita di queste Action Fiugre, con la possibilità in futuro di aggiornarlo con Woocommerce per permettere anche l'acquisto di esse.",
     },
   ];
 };

@@ -13,7 +13,8 @@ import {
 } from "../animation";
 // images
 import { Image } from "../styles";
-import ale2 from "../img/ale2.jpg";
+// import ale2 from "../img/ale2.jpg";
+import ale from "../img/home1.png";
 
 const ContactMe = () => {
   return (
@@ -22,7 +23,6 @@ const ContactMe = () => {
       variants={pageAnimation}
       initial="hidden"
       animate="show"
-      // style={{ background: "#fff" }}
     >
         <div>
       <Title>
@@ -62,7 +62,7 @@ const ContactMe = () => {
         <Wave></Wave>
         
         <Image>
-          <motion.img variants={photoAnim} src={ale2} alt="Alessandro Cappello" />
+          <motion.img variants={photoAnim} src={ale} alt="Alessandro Cappello" />
         </Image>
         
     </ContactStyle>
@@ -88,8 +88,7 @@ const ContactStyle = styled(motion.div)`
 
 const Title = styled.div`
   margin-bottom: 4rem;
-  /* color: #fff; */
-  color: #23d997;
+  color: #fff;
   letter-spacing: 0.2rem;
   font-family: "Lobster", cursive;
   @media (max-width: 1500px) {
@@ -112,7 +111,6 @@ const Contact = styled.div`
 .line {
     height: 0.4rem;
     background: #23d997;
-    /* margin-left:4rem ; */
     margin-left:0rem ;
     margin-bottom: 3rem;
   }
@@ -121,7 +119,7 @@ a{
   font-size:3.5rem;
   margin: 2rem 0rem 0rem;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #f1f1f1;
   font-weight:bold;
 }
 `;
